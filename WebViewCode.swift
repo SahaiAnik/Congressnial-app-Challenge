@@ -12,7 +12,7 @@ import WebKit
 struct WebView: UIViewRepresentable {
  
     var url: URL
- 
+    
     func makeUIView(context: Context) -> WKWebView {
         return WKWebView()
     }
@@ -26,6 +26,6 @@ struct WebView: UIViewRepresentable {
 
 struct WebView_Previews: PreviewProvider {
     static var previews: some View {
-        WebView(url:URL(string:"https://www.cnn.com")!)
+        WebView(url:URL(string:"forcesofnature.app")!)
     }
 }

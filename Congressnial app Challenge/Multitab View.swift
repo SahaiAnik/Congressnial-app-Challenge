@@ -10,9 +10,9 @@ import SwiftUI
 struct MultiTabView: View {
     var body: some View {
         TabView{
-            WebView(url:URL(string:"https://aiclub.world/privacy")!)
+            WebView(url:URL(string:"https://djdribbles66.wixsite.com/forces-of-nature")!)
                 .tabItem{
-                    Label("Web page",systemImage: "figure.stand.line.dotted.figure.stand")
+                    Label("Home Page",systemImage: "house.fill")
                 }
             GoodDeedView()
                 .tabItem{
